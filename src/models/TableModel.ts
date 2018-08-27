@@ -1,15 +1,10 @@
 'use strict';
 
-import {Model} from './Model';
+import { Model } from './Model';
 
 export enum TableUserRole {
     OWNER = 'OWNER',
     EDITOR = 'EDITOR',
-}
-
-export enum TablePermissions {
-    ANYONE_CAN_EDIT = 'ANYONE_CAN_EDIT',
-    ONLY_EDITORS_CAN_EDIT = 'ONLY_EDITORS_CAN_EDIT',
 }
 
 export class TableColumn {
@@ -27,4 +22,5 @@ export class TableModel extends Model {
     public owner: string;
     public columns: TableColumn[];
     public users: {[key: string]: TableUserRole};
+    public pendingUsers: string[];
 }

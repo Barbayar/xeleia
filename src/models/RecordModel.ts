@@ -1,6 +1,6 @@
 'use strict';
 
-import {Model} from './Model';
+import { Model } from './Model';
 
 class RecordModel extends Model {
     protected ddbTable = 'xeleia.records';
@@ -8,4 +8,5 @@ class RecordModel extends Model {
     public table: string;
     public pk: string;
     public data: {[key: string]: string};
+    public lastModifiedTime: number;
 }
