@@ -1,0 +1,30 @@
+{
+  "name": "xeleia-backend",
+  "version": "0.0.1",
+  "description": "Backend of Xeleia - Open Crowdsourcing Data Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Barbayar/xeleia-backend.git"
+  },
+  "keywords": [
+    "backend",
+    "xeleia",
+    "open",
+    "crowdsourcing",
+    "data",
+    "service"
+  ],
+  "author": "Barbayar DASHZEVEG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Barbayar/xeleia-backend/issues"
+  },
+  "homepage": "https://github.com/Barbayar/xeleia-backend#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
